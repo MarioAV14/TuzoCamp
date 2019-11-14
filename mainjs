@@ -58,3 +58,15 @@ console.log(cadena)
     console.log("Yo, the navigator goes first definitely")
   }
 }
+
+let latin = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel eleifend lorem, quis iaculis ligula. Phasellus at mauris lobortis, rhoncus lorem id, viverra urna. Nunc metus mauris, molestie ac neque lacinia, elementum tristique erat. Phasellus aliquam lacus eu faucibus cursus. Integer feugiat malesuada aliquet. Quisque imperdiet mauris eros, eget ullamcorper orci lacinia sit amet. Donec rhoncus magna id leo vehicula, et lobortis lacus pulvinar. Suspendisse a risus at risus interdum posuere. Duis euismod, tortor quis varius dignissim, massa purus imperdiet nunc, sed sollicitudin nisl ipsum sed odio. Nunc ultrices nulla eget nisi pellentesque, sit amet ultricies lectus dictum. Praesent laoreet libero eget accumsan interdum. Quisque at euismod eros, eget sodales tortor. Cras rutrum consectetur tortor, faucibus elementum urna egestas in. Aenean lacinia tincidunt elit rutrum porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas posuere orci sed tincidunt interdum. Proin non varius velit. Pellentesque a magna vitae ante iaculis vestibulum. Aenean in risus quis libero pharetra commodo at ut turpis. Curabitur hendrerit efficitur feugiat. Donec facilisis non turpis in finibus. Suspendisse leo lectus, scelerisque sed diam et, sagittis tempor nibh. Donec molestie diam eu dolor vulputate cursus. Nulla facilisi. Nulla a cursus risus. Vivamus ullamcorper turpis eget euismod laoreet. Donec posuere maximus leo. Nullam at tempor ipsum. Sed commodo lacinia nulla, sit amet eleifend quam facilisis a. Nulla elementum imperdiet tellus id vehicula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec consectetur, nunc a vestibulum imperdiet, diam tellus accumsan ex, eget egestas mi eros eget nisi. Mauris rhoncus mattis purus eu pellentesque. Nulla mollis maximus nisl, ac mollis tortor. Aenean a ex in risus mollis vehicula. Integer sed lacus erat. Integer iaculis aliquam risus, sit amet vulputate quam aliquam non. Ut felis orci, tempor eu turpis at, commodo tristique nisl. Maecenas scelerisque erat augue, id auctor enim tristique nec. In ullamcorper tortor eget arcu volutpat, sed porta ex auctor. Praesent sed velit mi. Morbi sapien urna, accumsan eget odio sit amet, sagittis iaculis ante."
+
+let palabras=1
+for (let i=0;i<latin.length;i++)
+{
+  if (latin[i]===" ")
+  {
+    palabras += 1
+  }
+}
+console.log("La cantidad de palabras de la variable es de : "+palabras)
