@@ -18,3 +18,43 @@ else
         console.log("It seems that the navigator has the longest name, it has "+hacker2.length+" characters")
     }
 }
+
+let arr = hacker1.toUpperCase().split("")
+let cadena =""
+for (let i=0; i < arr.length; i++) 
+{
+  cadena += arr[i]
+  cadena += " "
+}
+console.log(cadena)
+
+let cadena2 =""
+for (let i=hacker2.length; i > 0; i--)
+{
+  cadena2 += hacker2[i-1]
+}
+console.log(cadena2)
+
+if (hacker1.localeCompare(hacker2)===0)
+{
+  console.log("What?! You both have the same name?")
+}
+else
+{
+  if (hacker1.localeCompare(hacker2)<0)
+  {let arr = hacker1.toUpperCase().split("")
+let cadena =""
+for (let i=0; i < arr.length; i++) 
+  {
+      cadena += arr[i]
+      cadena += " "
+  }
+console.log(cadena)
+
+    console.log("The driver's name goes first")
+  }
+  else
+  {
+    console.log("Yo, the navigator goes first definitely")
+  }
+}
