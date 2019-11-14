@@ -70,3 +70,24 @@ for (let i=0;i<latin.length;i++)
   }
 }
 console.log("La cantidad de palabras de la variable es de : "+palabras)
+
+let frase = "step on no pets".toLowerCase()
+let palindromo1 = frase.replace(/[ ,?!']/gi,"")
+let palindromo2 = ""
+for (let i=palindromo1.length; i > 0; i--)
+{ 
+  if(palindromo1[i-1] === " ")
+  {
+    continue
+  }
+  palindromo2 += palindromo1[i-1]
+}
+
+if (palindromo1===palindromo2)
+{
+  console.log("La frase "+frase+" es un palindromo")
+}
+else
+{
+  console.log("La frase "+frase+" no es un palindromo")
+}
