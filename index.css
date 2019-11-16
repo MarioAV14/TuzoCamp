@@ -1,0 +1,18 @@
+div {
+    position: relative;
+    border: 1px solid #17212e;
+    margin: 10px 0 0 10px;
+    width: 170px;
+    padding: 0 10px 0 10px;
+    box-sizing: border-box;
+    left: 70px;
+    top: 20px;
+}
+
+body {
+    margin: 0%;
+}
+
+ul li {
+    color: tomato;
+}
